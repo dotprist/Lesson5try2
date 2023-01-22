@@ -1,0 +1,145 @@
+/* &display=swap&subset=cyrillic-ext (вставить в плагин) для удаленного подключения*/
+
+@import url("https://fonts.googleapis.com/css?family=Nunito:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('../fonts/SFUIText-Regular.woff2') format('woff2'),
+		url('../fonts/SFUIText-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('../fonts/SFUIText-Bold.woff2') format('woff2'),
+		url('../fonts/SFUIText-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 16px;
+	/* по умолчанию */
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+	line-height: 1;
+
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/* --------------- */
+
+
+.span{
+		color: brown;
+	font-size: 20px;
+	text-align: center;
+	display: block;
+	
+}
+.a,.b,.c{
+	background-color: aqua;
+color: green;
+width: 200px;
+height: 200px;
+padding: 15px;
+display: inline-block;
+}
+.link a{
+	font-size: 30px;
+	color: orange;
+		display: inline-block;
+		margin: 0px auto 30px auto;
+}
+.link{
+	text-align: center;
+}
+.four{
+	text-align: center;
+	color: mediumorchid;
+}
+.four p{
+	background-color: black;
+	width: 100px;
+	display: inline-block;
+	margin: 00px 30px 00px 00px;
+	padding: 10px;
+}
+.five {
+	text-align: center;
+}
+.five_1{
+	font-size: 20px;
+	padding: 30px;
+	
+}
+
+.five_2 {
+	font-size: 20px;
+	padding: 30px;
+	margin: -85px 00px 00px 00px;
+}
+.bigspan{
+	text-align: center;
+}
+.bigspan span{
+	background-color: black;
+	font-size: 20px;
+	color: purple;
+	display: block;
+	overflow: auto;
+	height: 200px;
+	max-height: 100px;
+	margin: 00px 00px 50px 00px;
+}
